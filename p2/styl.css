@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.allhead {
+    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+.imginheader {
+    flex-wrap: wrap;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.secondofheader {
+    flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sec2{
+    display: flex;
+}
+.secondofheader{
+    justify-content: end;
+    align-items: start;
+    flex-wrap: wrap;
+    display: flex;
+}
+.imginsec2{
+    width: 70%;
+    height: 100%;
+}
+.sec2insec2{ 
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    height: 100%;
+}
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.form3{
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    width: 50vw;
+}
+.logo{ 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+  }
+  .fa-brands:hover{
+    opacity: 0.5;
+  }
